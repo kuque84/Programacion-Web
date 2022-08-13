@@ -1,4 +1,4 @@
-/node_modules
-/backend/node_modules
-/frontend/node_modules
+/2022-08-08 - Ejercicio/node_modules
+/2022-08-08 - Ejercicio/backend/node_modules
+/2022-08-08 - Ejercicio/frontend/node_modules
 package-lock.json
