@@ -1,5 +1,6 @@
 // Imports
 const express = require('express')
+const cors = require('cors')
 const app = express()
 const sequelize = require('./database/sequelize')
 require('./database/associations')
@@ -9,6 +10,7 @@ const router = require('./routes/router')
 const port = 3000
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
+app.use(cors())
 
 // Routes
 app.use('/', router)
